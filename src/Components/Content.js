@@ -24,15 +24,15 @@ const Content = () => {
   }, []);
 
   return (
-    <div className="w-full h-auto bg-primary text-white px-10 py-12">
+    <div className="w-full h-auto bg-[#18171C] text-white px-10 py-12">
       <div>
-        <h1>Your Assets</h1>
+        <h1 className="px-10 ">Your Assets</h1>
 
         <div className="overflow-auto shadow-lg px-10 py-6">
           <table class="table-auto w-full">
-            <thead>
+            <thead className="text-gray-400 font-light">
               <tr>
-                <th className=" border-b-2   border-gray-50  text-left px-5 py-4">
+                <th className=" border-b-2   border-gray-50  text-left px-5 py-4 font">
                   Coins
                 </th>
                 <th className=" border-b-2   border-gray-50  text-left px-5 py-4">
