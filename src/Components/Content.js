@@ -24,7 +24,7 @@ const Content = () => {
   }, []);
 
   return (
-    <div className="w-full h-auto bg-[#18171C] text-white px-10 py-12">
+    <div className="w-full h-auto bg-[#18171C] text-white px-8 py-12">
       <div>
         <h1 className="px-10 ">Your Assets</h1>
 
@@ -58,7 +58,7 @@ const Content = () => {
             {fetchCoins.slice(0, 6).map((props) => (
               <tbody>
                 <tr>
-                  <td className=" px-5 py-4 whitespace-nowrap">
+                  <td className=" px-3 py-4 whitespace-nowrap">
                     <span className="flex">
                       <img
                         className="h-6 w-6 rounded-full object-cover	 bg-white"
